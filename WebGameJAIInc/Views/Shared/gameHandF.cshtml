@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>>@ViewBag.Title -Training Studio - Free CSS Template</title>
+
+    <!-- Additional CSS Files -->
+    @Styles.Render("~/Content/css")
+    @*<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <link rel="stylesheet" href="css/templatemo-training-studio.css">*@
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">Training<em> Studio</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">About</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                            <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li>
+                            <li class="main-button"><a href="#">Sign Up</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <!-- ***** Main Banner Area Start ***** -->
+
+    @RenderBody()
+    
+    <p align="center">
+        Copyright &copy; 2020 Training Studio
+        - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a>
+    </p>
+                
+    
+
+
+
+    @RenderSection("scripts", required: false)
+    <!-- jQuery -->
+    @Scripts.Render("~/bundles/jquery")
+    @*<script src="Scripts/jquery-2.1.0.min.js"></script>*@
+
+    <!-- Bootstrap -->
+    @Scripts.Render("~/bundles/bootstrap")
+    @*<script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>*@
+
+    <!-- Plugins -->
+    @Scripts.Render("~/bundles/plugins");
+    @*<script src="Scripts/scrollreveal.min.js"></script>
+    <script src="Scripts/waypoints.min.js"></script>
+    <script src="Scripts/jquery.counterup.min.js"></script>
+    <script src="Scripts/imgfix.min.js"></script>
+    <script src="Scripts/mixitup.js"></script>
+    <script src="Scripts/accordions.js"></script>*@
+
+    <!-- Global Init -->
+    @Scripts.Render("~/Content/GlobalInit");
+    @*<script src="Scripts/custom.js"></script>*@
+
+</body>
+</html>
