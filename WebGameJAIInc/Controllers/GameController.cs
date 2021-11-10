@@ -9,6 +9,10 @@ namespace WebGameJAIInc.Controllers
     public class GameController : Controller
     {
         // GET: Game
+        public ActionResult DinosourJump()
+        {
+            return View();
+        }
         public ActionResult FlappyBird()
         {
             return View();

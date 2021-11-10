@@ -143,6 +143,7 @@
     <Content Include="images\d.png" />
     <Content Include="images\features-first-icon.png" />
     <Content Include="images\first-trainer.jpg" />
+    <Content Include="images\gameintro.mp4" />
     <Content Include="images\gym-video.mp4" />
     <Content Include="images\line-dec.png" />
     <Content Include="images\schedule-bg.jpg" />
@@ -202,6 +203,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Game\DinosourJump.cshtml" />
     <Content Include="Views\Shared\gameHandF.cshtml" />
+    <Content Include="Views\Game\FlappyBird.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

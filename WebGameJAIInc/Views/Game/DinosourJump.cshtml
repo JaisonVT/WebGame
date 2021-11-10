@@ -2,36 +2,22 @@
     ViewBag.Title = "FlappyBird";
     Layout = "~/Views/Shared/gameHandF.cshtml";
 }
-<br /><br /><br /><br />
+
 <!-- ***** Our Classes Start ***** -->
-<section class="section" id="our-classes">
-    <div class="container-fluid">
-        
-        <div class="row" id="tabs">
-            <div class="col-lg-3">
-                <ul>
-                    <li><a href='#tabs-1'><img src="~/images/tabs-first-icon.png" alt="">First Training</a></li>
-                    <li><a href='#tabs-2'><img src="~/images/tabs-first-icon.png" alt="">Second Training</a></li>
-                    <li><a href='#tabs-3'><img src="~/images/tabs-first-icon.png" alt="">Third Training</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-9"> @*width="950" height="500"*@
-                <div class="game">
-                    <div id="dino">
 
-                    </div>
-                    <div class="movement" id="cactus">
-
-                    </div>
-                </div>
+<div class="col-lg-9 op">
+    @*width="950" height="500"*@
+    <div class="game">
+        <div id="score">
+        </div>
+        <div id="dino">
                 
-                @*<section class='tabs-content'>
-                    <img src="~/images/training-image-01.jpg"  alt="First Class">
-                </section>*@
-            </div>
+        </div>
+        <div class="movement" id="cactus">
+
         </div>
     </div>
-</section>
+</div>
 
 @*<frameset rows="10%,80%,10%">
         <frame name="top" src="/html/top_frame.htm" />

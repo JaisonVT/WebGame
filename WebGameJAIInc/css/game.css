@@ -1,17 +1,19 @@
+/*--------------------------- Dinosour Jump Start  ----------------------------*/
 .game {
-  width: 600px;
-  height: 200px;
+  width: 700px;
+  height: 250px;
   border: 1px solid black;
   margin: auto;
+  background-color: white;
 }
 
 #dino {
-  width: 50px;
-  height: 50px;
-  background-image: url(../images/d.png);
-  background-size: 50px 50px;
-  position: relative;
-  top: 150px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/d.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 170px;
 }
 
 .jump {
@@ -20,7 +22,7 @@
 
 @keyframes jump {
   0% {
-    top: 150px;
+    top: 170px;
   }
 
   30% {
@@ -36,7 +38,7 @@
   }
 
   100% {
-    top: 150px;
+    top: 170px;
   }
 }
 
@@ -44,8 +46,8 @@
   width: 20px;
   height: 40px;
   position: relative;
-  top: 110px;
-  left: 580px;
+  top: 130px;
+  left: 680px;
 
   background-image: url(../images/c.png);
   background-size: 20px 40px;
@@ -57,10 +59,14 @@
 
 @keyframes block {
   0% {
-    left: 580px;
+    left: 680px;
   }
 
   100% {
     left: -20px;
   }
 }
+/*--------------------------- Dinosour Jump End  ----------------------------*/
+/*--------------------------- Flappy Bird Start  ----------------------------*/
+
+/*--------------------------- Flappy Bird End    ----------------------------*/
